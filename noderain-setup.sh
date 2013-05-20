@@ -83,7 +83,7 @@ sleep 1
 
 echo '[###### Install nodeRAIN bash ######]'
 sleep 1
-sudo git clone https://github.com/nodeRAIN/bash.git /home/tmp/bashrain/
+sudo git clone https://github.com/FaisalAbid/bash.git /home/tmp/bashrain/
 . /home/tmp/bashrain/noderain-bash/lib/utility/replaceInFile.sh
 replaceInFile "/home/tmp/bashrain/noderain-bash/lib/config-server.sh" "PATHNODESERVER" "${noderainserverpath}"
 replaceInFile "/home/tmp/bashrain/noderain-bash/lib/config-server.sh" "PATHNODEREPO" "${noderainrepopath}"
