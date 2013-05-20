@@ -1,4 +1,4 @@
 [program:HOST]
-command=node server.js
+command=npm install && node server.js
 directory=PATHNODE
 environment=ENV_NODE=production,ENV_PORT=PORTNODE
